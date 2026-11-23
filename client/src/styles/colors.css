@@ -1,0 +1,82 @@
+/* =========================================================
+   Bizora AI - ALL COLORS LIVE HERE
+   Change a value below and the whole website updates.
+   (style.css never uses a raw color, only these variables)
+   ========================================================= */
+
+:root {
+  /* Brand */
+  --primary: #6c4df6;
+  --primary-dark: #5436d9;
+  --primary-light: #eee9ff;
+  --secondary: #14b8a6;
+  --accent: #ff7a59;
+
+  /* Gradients */
+  --gradient-main: linear-gradient(135deg, #6c4df6 0%, #9b5cf6 55%, #ff7a59 120%);
+  --gradient-soft: linear-gradient(135deg, #eee9ff 0%, #ffeee9 100%);
+  --gradient-teal: linear-gradient(135deg, #14b8a6 0%, #3b82f6 100%);
+  --gradient-hero: linear-gradient(135deg, #0f1230 0%, #2a1b6e 55%, #6c4df6 100%);
+
+  /* Surfaces and text */
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --surface-2: #f0f1f8;
+  --border: #e4e6f1;
+  --text: #171a2e;
+  --text-muted: #6b7090;
+  --text-on-primary: #ffffff;
+  --text-on-dark: #ffffff;
+  --text-on-dark-muted: #b8bcdb;
+
+  /* Sidebar */
+  --sidebar-bg: #10132b;
+  --sidebar-text: #b8bcdb;
+  --sidebar-hover: #1b1f42;
+  --sidebar-active-bg: #6c4df6;
+
+  /* Feedback */
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* Order status colors */
+  --st-new: #3b82f6;
+  --st-confirmed: #8b5cf6;
+  --st-preparing: #f59e0b;
+  --st-dispatched: #14b8a6;
+  --st-delivered: #16a34a;
+  --st-cancelled: #ef4444;
+
+  /* Charts */
+  --chart-1: #6c4df6;
+  --chart-2: #14b8a6;
+  --chart-3: #ff7a59;
+  --chart-4: #3b82f6;
+  --chart-5: #f59e0b;
+  --chart-6: #ec4899;
+
+  /* Effects */
+  --shadow-color: rgba(23, 26, 46, 0.1);
+  --overlay: rgba(15, 18, 48, 0.55);
+  --glass: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.22);
+  --focus-ring: rgba(108, 77, 246, 0.25);
+}
+
+/* Optional dark theme (toggle in the top bar or Settings) */
+[data-theme="dark"] {
+  --primary-light: #2a2358;
+  --gradient-soft: linear-gradient(135deg, #1e1b3f 0%, #2c1d2f 100%);
+  --bg: #0c0e22;
+  --surface: #151833;
+  --surface-2: #1d2142;
+  --border: #292d55;
+  --text: #eceefb;
+  --text-muted: #9a9fc4;
+  --sidebar-bg: #090b1c;
+  --sidebar-hover: #151833;
+  --shadow-color: rgba(0, 0, 0, 0.45);
+  --focus-ring: rgba(155, 124, 255, 0.35);
+}
